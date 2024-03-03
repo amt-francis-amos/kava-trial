@@ -77,8 +77,57 @@ nav ul li a{
     margin-right:2rem;
 }
 
+.hero-content{
+    width:100%;
+    padding:0 8%;
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    align-items: center;
+}
+
+.hero-info img{
+    max-width:100%;
+}
+
+.hero-content h1{
+    font-size:3rem;
+    color:var(--color-secondary-dark);
+    margin-bottom:2rem;
+}
+
+.hero-content p{
+    max-width:430px;
+    line-height:1.6;
+    margin-bottom:2rem;
+    font-size:17px;
+}
+
+.hero-content p span{
+    font-weight:700;
+}
 
 
+.discover{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.discover-btn{
+    width:220px;
+    height:45px;
+    border:none;
+    background:var(--color-secondary);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    border-radius:5px;
+}
+
+.arrow{
+    width:30px;
+    margin-left:20px;
+}
 
 
 /* ------- END OF HEADER STYLING ----- */
