@@ -10,6 +10,10 @@
   
 }
 
+body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration:none;
     list-style:none;
@@ -51,6 +55,13 @@ header{
     position:absolute;
     top:-1%;
     left:33%;
+    z-index:-1;
+}
+.circle{
+    width:35%;
+    position:absolute;
+    top:0%;
+    right:5px;
 }
 
 
@@ -61,6 +72,7 @@ header{
     align-items:center;
     justify-content:space-between;
     padding:2% 13%;
+    z-index:-1;
 }
 
 .logo{
@@ -88,6 +100,7 @@ nav ul li a{
 .right-icons{
     display:flex;
     align-items: center;
+    z-index: 100;
 }
 
 .quote-btn{
@@ -128,7 +141,7 @@ nav ul li a{
 
 .hero-info img{
     max-width:100%;
-    
+   
     
 }
 
