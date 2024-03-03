@@ -43,11 +43,21 @@ a{
 nav{
     display:flex;
     align-items:center;
+    gap:2rem;
 }
 
 nav ul li{
     display:inline-block;
     margin:10px 20px;
+}
+
+.right-icons{
+    display:flex;
+    align-items: center;
+}
+
+.search{
+    margin-right:2rem;
 }
 
 
