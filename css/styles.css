@@ -54,7 +54,7 @@ header{
     height:99vh;
     position:absolute;
     top:-1%;
-    left:33%;
+    left:34%;
     z-index:-1;
 }
 .circle{
@@ -72,7 +72,7 @@ header{
     display:flex;
     align-items:center;
     justify-content:space-between;
-    padding:2% 13%;
+    padding:2% 12%;
     z-index:-1;
 }
 
@@ -122,7 +122,7 @@ nav ul li a{
 
 .hero-content{
     width:100%;
-    padding:0 13%;
+    padding:0 12%;
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
@@ -154,10 +154,10 @@ nav ul li a{
 }
 
 .hero-content p{
-    max-width:430px;
+    max-width:330px;
     line-height:1.6;
     margin-bottom:2rem;
-    font-size:17px;
+    font-size:13px;
 }
 
 .hero-content p span{
@@ -190,7 +190,7 @@ nav ul li a{
 
 
 .client-container{
-    padding:0 13%;
+    padding:0 12%;
     display:flex;
     align-items: center;
     justify-content: space-between;
