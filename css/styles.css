@@ -28,6 +28,19 @@ a{
 }
 
 /* ------- HEADER STYLING ----- */
+header{
+    position:relative;
+}
+
+.red-dot{
+    width:90px;
+    position:fixed;
+    top:0;
+    left:0;
+}
+
+
+
 
 .navbar{
     display:flex;
@@ -83,7 +96,19 @@ nav ul li a{
     display:grid;
     grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
     align-items: center;
+    position: relative;
 }
+
+
+.blue-dot{
+    width:340px;
+    position:absolute;
+    z-index:-1;
+    top:6.5%;
+    left:47.3%;
+}
+
+
 
 .hero-info img{
     max-width:100%;
@@ -129,5 +154,21 @@ nav ul li a{
     margin-left:20px;
 }
 
+
+
+.client-container{
+    padding:0 8%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.s-img{
+    max-width:90px;
+}
+
+.client-container img{
+    width:180px;
+}
 
 /* ------- END OF HEADER STYLING ----- */
