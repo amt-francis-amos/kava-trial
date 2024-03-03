@@ -219,13 +219,15 @@ nav ul li a{
     }
 
     .red-dot{
-       width:14%;
+       width:10%;
+       height:10vh;
+       object-fit:cover;
     }
 
     .logo{
-        font-size:20px;
+        width:100px;
         margin-top:20px;
-        margin-left:40px;
+        margin-left:10px;
     }
 
     .hero-content{
