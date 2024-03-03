@@ -205,3 +205,70 @@ nav ul li a{
 }
 
 /* ------- END OF HEADER STYLING ----- */
+
+
+/* ----- MEDIA QUERY --------- */
+
+
+@media(max-width:900px){
+    
+
+
+    nav{
+       display:none;
+    }
+
+    .red-dot{
+       width:14%;
+    }
+
+    .logo{
+        font-size:20px;
+        margin-top:20px;
+        margin-left:40px;
+    }
+
+    .hero-content{
+        margin-top:12%;
+        text-align:center;
+    }
+
+    .hero-content h1{
+        font-size:1rem;
+    }
+
+    .discover{
+        display:block;
+        margin:20px auto;
+    }
+
+    .client-container{
+        flex-direction:column;
+    }
+
+    .top-bg{
+        top:0;
+        display:none;
+    }
+
+    .gray-bg{
+        width:100%;
+        height:100vh;
+        top:30%;
+    }
+
+    .hero-info{
+        margin-top:10%;
+    }
+
+    .dev{
+        margin-top:15%;
+    }
+
+    .blue-dot{
+        width:45%;
+        top:65%;
+        left:10%;
+    }
+
+}
