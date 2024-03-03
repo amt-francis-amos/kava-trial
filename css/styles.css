@@ -148,7 +148,7 @@ nav ul li a{
    position:relative;
 }
 
-.line {
+.line img {
     width:59%;
     max-width:288px;
     position:absolute;
@@ -235,7 +235,19 @@ nav ul li a{
 
 
 
+@media (max-width:789px){
+    .line{
+        width:10px;
+        top:4px;
+        left:90px;
+    }
 
+    .blue-dot{
+        width:130px;
+        left:20%;
+        top:30%;
+    }
+}
 
 
 
