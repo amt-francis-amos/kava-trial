@@ -50,20 +50,26 @@ header{
     top:0;
     left:0;
 }
+
+
 .gray-bg{
     width:130px;
     position:fixed;
     top:0;
     left:0;
+    
 }
+
 .top-bg{
     width:80%;
-    height:99vh;
+    height:100vh;
     position:absolute;
-    top:-1%;
+    top:1%;
     left:35%;
     z-index:-1;
 }
+
+
 .circle{
     width:38.5%;
     height:80vh;
@@ -123,7 +129,7 @@ nav ul li a{
 
 
 .hero-content{
-    width:100%;
+    width:85%;
     max-width:1980px;
     margin:7% auto;
     display:grid;
@@ -205,15 +211,16 @@ nav ul li a{
 }
 
 .clients{
-    width:85%;
-    margin: auto;
-    
+    width:100
+   
 }
 
 .client-container{
     display:flex;
     align-items: center;
     justify-content: space-between;
+   
+   
     
 }
 
@@ -222,7 +229,9 @@ nav ul li a{
 }
 
 .client-container img{
-    width:180px;
+    width:130px;
+    
+    
    
 }
 
@@ -235,23 +244,8 @@ nav ul li a{
 
 
 
-@media (max-width:789px){
-    .line{
-        width:10px;
-        top:4px;
-        left:90px;
-    }
 
-    .blue-dot{
-        width:130px;
-        left:20%;
-        top:30%
-    }
-}
-
-
-
-@media (max-width:900px){
+@media (max-width:990px){
   
     
       nav ul li{
