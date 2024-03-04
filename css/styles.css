@@ -461,9 +461,9 @@ nav ul li a{
 
 
 
-@media(max-width:600px){
+@media(max-width:800px){
     .line img{
-        width:90%;
-        left:10%;
+        width:80%;
+        left:18%;
     }
 }
