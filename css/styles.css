@@ -246,7 +246,9 @@ nav ul li a{
 /* ------SERVICES SECTION ----- */
     .services{
         padding:100px 0;
-
+        background: #fffdfd;
+        margin-top:8%;
+        z-index:1;
     }
 
 
