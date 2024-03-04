@@ -164,8 +164,9 @@ nav ul li a{
 }
 
 
-.hero-info img{
+.dev{
     max-width:100%;
+    
 }
 
 .hero-content h1{
@@ -388,24 +389,23 @@ nav ul li a{
 
     .dev{
         margin-top:15%;
+        width:100%;
     }
 
     .blue-dot{
-        width:130px;
-        left:6%;
+        width:160px;
+        left:8%;
         top:30%;
     }
 
-    .dev{
-        width:250px;
-    }
+   
     
     .search{
         display:none;
     }
 
     .quote{
-        width:120px;
+        width:150px;
         margin-top:20px;
     }
 
