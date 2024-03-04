@@ -23,7 +23,7 @@ a{
     width:85%;
     max-width:1920px;
     margin:auto;
-    overflow:hidden;
+    
    
 }
 
@@ -39,15 +39,16 @@ a{
 }
 
 /* ------- HEADER STYLING ----- */
-header{
+
+
+header, .top-shapes{
     position:relative;
    
-    
 }
 
 .red-dot{
-    width:90px;
-    position:fixed;
+    width:7%;
+    position:absolute;
     top:0;
     left:0;
 }
@@ -55,7 +56,7 @@ header{
 
 .gray-bg{
     width:130px;
-    position:fixed;
+    position:absolute;
     top:0;
     left:0;
     
@@ -72,12 +73,12 @@ header{
 
 
 .circle{
-    width:37%;
+    width:40%;
     height:80vh;
     object-fit: cover;
     position:absolute;
     top:-15%;
-    right:-20px;
+    right:-65px;
     border-bottom-right-radius:40%;
    
 }
@@ -90,7 +91,8 @@ header{
     align-items:center;
     justify-content:space-between;
     padding:1% 8%;
-    z-index:-1;
+    z-index:1;
+    position: relative;
 }
 
 .logo{
@@ -331,10 +333,7 @@ nav ul li a{
 
 @media (max-width:990px){
      
-    body{
-        overflow-x:hidden;
-    }
-    
+ 
       nav ul li{
         display:none;
       }
@@ -465,6 +464,10 @@ nav ul li a{
 
 
 @media(max-width:800px){
+
+   
+
+
     .line img{
         width:80%;
         left:18%;
