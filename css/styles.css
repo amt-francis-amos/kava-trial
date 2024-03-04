@@ -330,7 +330,10 @@ nav ul li a{
 
 
 @media (max-width:990px){
-  
+     
+    body{
+        overflow-x:hidden;
+    }
     
       nav ul li{
         display:none;
