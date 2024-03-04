@@ -435,12 +435,25 @@ nav ul li a{
     }
 
      .circle{
-        right:-100px;
+        right:-200px;
+        border-top-left-radius:50%;
      }
 
      .top-bg{
-        right:40%;
-       
+        width:100%;
+        height:100vh;
+        left:450px;
+      
+     }
+
+     .blue-dot{
+        width:200px;
+        left:-5%;
+        
+     }
+
+     .client-container img{
+        z-index:1;
      }
 
      
