@@ -409,10 +409,10 @@ nav ul li a{
         margin-top:20px;
     }
 
-    .line{
-        width:150px;
-        top:4px;
-        left:90px;
+    .line img{
+        width:42%;
+        top:7%;
+        left:30%;
     }
     
 }
@@ -458,3 +458,4 @@ nav ul li a{
 
      
 }
+
