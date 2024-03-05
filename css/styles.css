@@ -11,6 +11,7 @@
 
 body {
   overflow-x: hidden;
+  background:#fff;
 }
 
 a {
@@ -50,7 +51,7 @@ main::after {
   left: -30px;
   top:-36%;
   width: 11%;
-  height: 26vh;
+  height: 30vh;
   object-fit: cover;
 }
 
@@ -63,12 +64,47 @@ main::before {
     background-size: cover;
     z-index:-1;
     left: -20px;
-    top:-35.4%;
+    top:-35%;
     width: 8.5%;
-    height: 35vh;
+    height: 37vh;
     object-fit: cover;
    
   }
+
+
+header{
+    position:relative;
+    
+}
+
+
+header::before{
+    content: "";
+    position: absolute;
+    background-image: url("../images/top-shape.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    left:42%;
+    width:59%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+header::after{
+    content: "";
+    position: absolute;
+    background-image: url("../images/circle.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+    right:9px;
+    width:30%;
+    top:0;
+    height:80vh;
+    object-fit: cover;
+}
+
 
 
 
@@ -78,6 +114,12 @@ main::before {
   justify-content: space-between;
   width: 100%;
 } 
+
+
+
+
+
+
 
 .logo {
   width: 130px;
@@ -167,16 +209,17 @@ main {
     left:-3%;
   }
   
- 
+
   
+
   .hero-left h1::after {
     content: "";
     width: 430px;
-    height: 35px;
+    height: 25px;
     display: block;
     background: #efcacc;
     position: absolute;
-    top: 36px;
+    top: 46px;
     left: 1px; 
     z-index: -1;
   }
@@ -206,7 +249,7 @@ main {
     margin-left:3em;
   }
 
-
+  
 
 .logo-item img {
   width: 90%;
