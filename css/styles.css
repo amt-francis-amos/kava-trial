@@ -172,8 +172,8 @@ main{
 }
 
 .hero-right::before{
-    width:55%;
-    height:180px;
+    width:40%;
+    height:30vh;
     object-fit:cover;
     content: '';
     position:absolute;
