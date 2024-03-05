@@ -84,7 +84,7 @@ header::before{
     background-image: url("../images/top-shape.png");
     background-repeat: no-repeat;
     background-size: cover;
-    z-index: -1;
+    z-index: -100;
     left:42%;
     width:59%;
     height: 100vh;
@@ -98,10 +98,10 @@ header::after{
     background-repeat: no-repeat;
     background-size: cover;
     z-index:-1;
-    right:9px;
-    width:30%;
+    right:10px;
+    width:32%;
     top:0;
-    height:80vh;
+    height:85vh;
     object-fit: cover;
 }
 
@@ -190,7 +190,7 @@ main {
   }
   
   .hero-right {
-    width: 45.5%; 
+    width: 50%; 
     position:relative;
    
   }
@@ -204,7 +204,7 @@ main {
     background-repeat: no-repeat;
     z-index: -1;
     width:400px; 
-    top:30px;
+    top:33px;
     height:20vh;
     left:-3%;
   }
@@ -226,7 +226,7 @@ main {
   
 
   .hero-left h1 {
-    font-size: 3.5rem;
+    font-size:3.5rem;
     font-weight: 700;
     color: var(--color-secondary-dark);
     margin-bottom: 0.5em; 
@@ -292,6 +292,26 @@ span img {
 
 
 
+
+
+@media(max-width:768px){
+
+    .hero-left{
+        width:100%;
+        max-width:500px;
+        border:1px solid red;
+        margin-right:4em;
+    }
+
+
+    .hero-left h1{
+        font-size:1rem;
+        
+    }
+}
+
+
+
 @media (max-width: 900px) {
   .container {
     max-width: 900px;
@@ -328,7 +348,7 @@ span img {
   }
 
   .hero-right img{
-       width:90%;
+       width:100%;
   }
 
   .hero-left h1 {
